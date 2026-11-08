@@ -1,0 +1,25 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/charts/
+
+# Keep chart images and dashboard screenshots
+outputs/charts/*
+!outputs/charts/*.png
+!outputs/charts/.gitkeep
+
+# SQLite databases
+*.db
